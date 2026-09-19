@@ -14,7 +14,7 @@ It is organized by scientific stage, not by manuscript artwork. Final PNG/TIFF/J
 - `04_Optical_conductivity/`: raw postw90 Kubo components, extraction/preparation code, 11 independently named processed states, and the assembled conductivity tensor.
 - `05_Fresnel_PSHE/`: complex Fresnel and weak-measurement response data and code.
 - `06_Strain_estimation/`: feature construction, screening, ridge regression, and nested outer LOOCV.
-- `documentation/`: manifests, provenance, consistency checks, exclusions, numerical QA, and remaining release tasks.
+
 
 ## Reference conventions
 
