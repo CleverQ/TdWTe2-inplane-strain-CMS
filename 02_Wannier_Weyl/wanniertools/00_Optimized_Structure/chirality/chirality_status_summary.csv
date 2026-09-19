@@ -1,0 +1,2 @@
+case_dir,case_label,num_occupied,input_nodes,output_chirality_rows,return_code,wt_error_count,success,elapsed_seconds,elapsed_human,workdir,wt_out_file,log_file,message
+00_Optimized_Structure,00_Optimized_Structure,56,8,8,0,0,1,8.32022213935852,8.3 s,chirality,WT.out,chirality_N56.log,success

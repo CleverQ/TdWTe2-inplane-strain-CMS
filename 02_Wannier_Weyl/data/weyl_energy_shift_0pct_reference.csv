@@ -1,0 +1,3 @@
+axis,strain_percent,reference_state,node_count,mean_energy_shift_meV,display_meV
+a,0.5,0pct,8,-5.02884875,-5.03
+b,0.5,0pct,8,-2.23229625,-2.23

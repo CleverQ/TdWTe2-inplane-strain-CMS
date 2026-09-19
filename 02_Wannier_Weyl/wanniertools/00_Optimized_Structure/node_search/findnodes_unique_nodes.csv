@@ -1,0 +1,9 @@
+case_dir,case_label,num_occupied,pair_n_1based,pair_m_1based,kx_cart,ky_cart,kz_cart,k1_frac,k2_frac,k3_frac,gap_eV,energy_raw_eV,energy_rel_ef_eV,fermi_energy_eV,source_find_dir,source_nodes_file,duplicate_count,duplicate_sources
+00_Optimized_Structure,00_Optimized_Structure,56,56,57,0.21874443,-0.10267616,-0.00416123,0.12180448,0.89766256,0.99101683,2e-08,0.06023216,0.06023216,8.508116,node_search,Nodes.dat,1,00_Optimized_Structure:N56:line4
+00_Optimized_Structure,00_Optimized_Structure,56,56,57,0.21960429,0.10283221,-0.00353321,0.12228328,0.10249297,0.99237261,2e-08,0.0589698,0.0589698,8.508116,node_search,Nodes.dat,1,00_Optimized_Structure:N56:line5
+00_Optimized_Structure,00_Optimized_Structure,56,56,57,0.23118094,-0.04642437,-0.00325532,0.12872955,0.95372878,0.99297249,1e-08,0.00402555,0.00402555,8.508116,node_search,Nodes.dat,1,00_Optimized_Structure:N56:line10
+00_Optimized_Structure,00_Optimized_Structure,56,56,57,0.23129991,0.04546654,-0.00337749,0.1287958,0.04531655,0.99270877,2e-08,0.00304302,0.00304302,8.508116,node_search,Nodes.dat,1,00_Optimized_Structure:N56:line9
+00_Optimized_Structure,00_Optimized_Structure,56,56,57,-0.23125639,-0.04554883,0.00330235,0.8712284299999999,0.95460144,0.00712902,1e-08,0.00318708,0.00318708,8.508116,node_search,Nodes.dat,1,00_Optimized_Structure:N56:line7
+00_Optimized_Structure,00_Optimized_Structure,56,56,57,-0.23118391,0.04637363,0.0032654,0.87126879,0.04622064,0.00704927,2e-08,0.00399565,0.00399565,8.508116,node_search,Nodes.dat,1,00_Optimized_Structure:N56:line8
+00_Optimized_Structure,00_Optimized_Structure,56,56,57,-0.21959028,-0.10290775,0.00344846,0.8777245300000001,0.89743174,0.00744443,2e-08,0.05899433,0.05899433,8.508116,node_search,Nodes.dat,1,00_Optimized_Structure:N56:line3
+00_Optimized_Structure,00_Optimized_Structure,56,56,57,-0.2187764,0.10269151,0.0041675,0.87817772,0.10235274,0.00899671,2e-08,0.0601848,0.0601848,8.508116,node_search,Nodes.dat,1,00_Optimized_Structure:N56:line6

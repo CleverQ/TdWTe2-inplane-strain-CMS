@@ -1,0 +1,9 @@
+case_dir,case_label,num_occupied,pair_n_1based,pair_m_1based,kx_cart,ky_cart,kz_cart,k1_frac,k2_frac,k3_frac,gap_eV,energy_raw_eV,energy_rel_ef_eV,fermi_energy_eV,source_find_dir,source_nodes_file,duplicate_count,duplicate_sources
+Strain_a_Tension_0.2pct,Strain_a_Tension_0.2pct,56,56,57,0.21928106,-0.10415537,-0.00413089,0.1223475,0.89618823,0.99108232,2e-08,0.0577957,0.0577957,8.48216,node_search,Nodes.dat,1,Strain_a_Tension_0.2pct:N56:line4
+Strain_a_Tension_0.2pct,Strain_a_Tension_0.2pct,56,56,57,0.21997601,0.10429616,-0.00341887,0.12273524,0.10395209,0.99261946,2e-08,0.05677307,0.05677307,8.48216,node_search,Nodes.dat,1,Strain_a_Tension_0.2pct:N56:line5
+Strain_a_Tension_0.2pct,Strain_a_Tension_0.2pct,56,56,57,0.23182789,-0.04782699,-0.00227156,0.12934798,0.95233079,0.99509621,1e-08,0.00202076,0.00202076,8.48216,node_search,Nodes.dat,1,Strain_a_Tension_0.2pct:N56:line10
+Strain_a_Tension_0.2pct,Strain_a_Tension_0.2pct,56,56,57,0.23188281,0.0472291,-0.002443,0.12937862,0.04707329,0.99472614,3e-08,0.00114386,0.00114386,8.48216,node_search,Nodes.dat,1,Strain_a_Tension_0.2pct:N56:line9
+Strain_a_Tension_0.2pct,Strain_a_Tension_0.2pct,56,56,57,-0.23185284,-0.04730329,0.00244874,0.8706381,0.95285277,0.00528626,2e-08,0.00125968,0.00125968,8.48216,node_search,Nodes.dat,1,Strain_a_Tension_0.2pct:N56:line8
+Strain_a_Tension_0.2pct,Strain_a_Tension_0.2pct,56,56,57,-0.23184565,0.04773271,0.00221866,0.87064211,0.04757524,0.0047896,3e-08,0.00195495,0.00195495,8.48216,node_search,Nodes.dat,1,Strain_a_Tension_0.2pct:N56:line7
+Strain_a_Tension_0.2pct,Strain_a_Tension_0.2pct,56,56,57,-0.21995401,-0.10431983,0.00324218,0.87727703,0.89602431,0.00699912,3e-08,0.05681064,0.05681064,8.48216,node_search,Nodes.dat,1,Strain_a_Tension_0.2pct:N56:line3
+Strain_a_Tension_0.2pct,Strain_a_Tension_0.2pct,56,56,57,-0.21930633,0.10413126,0.00416907,0.8776384,0.10378774,0.0090001,1e-08,0.05780823,0.05780823,8.48216,node_search,Nodes.dat,1,Strain_a_Tension_0.2pct:N56:line6

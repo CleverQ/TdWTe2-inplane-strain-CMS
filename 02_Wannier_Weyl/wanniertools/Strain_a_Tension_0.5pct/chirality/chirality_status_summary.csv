@@ -1,0 +1,2 @@
+case_dir,case_label,num_occupied,input_nodes,output_chirality_rows,return_code,wt_error_count,success,elapsed_seconds,elapsed_human,workdir,wt_out_file,log_file,message
+Strain_a_Tension_0.5pct,Strain_a_Tension_0.5pct,56,8,8,0,0,1,8.099260568618774,8.1 s,chirality,WT.out,chirality_N56.log,success

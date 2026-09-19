@@ -1,0 +1,7 @@
+category,required_item,expected_count,destination,status,availability,notes
+DFT,VASP lightweight inputs and relaxed structures,11,01_DFT,IMPORTED,public_repository,POSCAR CONTCAR INCAR KPOINTS; excludes POTCAR WAVECAR CHGCAR
+Wannier,Wannier90 text inputs,11,02_Wannier_Weyl/wannier90,IMPORTED,public_repository,Canonical wannier90.win files
+Wannier,complete N56 wannier90_hr.dat,11,not_applicable,NOT_PUBLIC_LARGE_INTERMEDIATE,corresponding_author_on_reasonable_request,Not hosted because of file size
+Wannier,WannierTools text inputs and compact outputs,11,02_Wannier_Weyl/wanniertools,IMPORTED,public_repository,Node-search and chirality inputs plus compact outputs
+Optical,raw postw90 Kubo components,44,04_Optical_conductivity/raw_data,IMPORTED,public_repository,Four components for each of 11 states
+Optical,raw-to-component extraction script,1,04_Optical_conductivity/code/extract_optics_sigma.py,IMPORTED,public_repository,Direct three-column extraction without unit/sign/interpolation conversion

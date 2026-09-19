@@ -1,0 +1,9 @@
+﻿axis,lambda_nm,gamma_2_deg,theta_i_deg,feature_type,endpoint_range_m,abs_slope_m_per_percent,linear_r2,min_adjacent_separation_m,monotonicity,loocv_rmse_percent,source,comparability
+a,700.0,82.0,70.3,weak_measurement_readout_m,3.5830547116219565e-05,6.991239253805563e-05,0.9638254140953696,1.6221365361612214e-06,monotonic,,,
+a,700.0,82.0,70.4,weak_measurement_readout_m,3.592201873163304e-05,7.034333150061953e-05,0.972409909784317,2.3529532693091085e-06,monotonic,,,
+a,700.0,82.0,70.5,weak_measurement_readout_m,3.5877636995230335e-05,7.050898517178678e-05,0.9798927580364544,3.0773364736865497e-06,monotonic,,,
+a,700.0,82.0,70.6,weak_measurement_readout_m,3.56950632586249e-05,7.040277646056819e-05,0.9862563769513661,3.7895716841554325e-06,monotonic,,,
+a,700.0,82.0,70.7,weak_measurement_readout_m,3.537370881161025e-05,7.002152869321793e-05,0.9914719205028412,4.4839680443911525e-06,monotonic,,,
+a,700.0,82.0,70.3–70.7 (five-point),ridge multipoint,vector; see per-angle rows,not a scalar,0.9997619040520948,see per-angle rows,all five trace features monotonic,0.0026352353115488,three-layer trace + multipoint candidate table,selected current a-axis protocol
+b,700.0,82.0,68.7;68.6;68.8;68.5;68.9,ridge multipoint,raw trace unavailable,not a scalar,0.7568038149004512,raw trace unavailable,raw trace unavailable,0.0842212684860748,multipoint candidate table only,same lambda/gamma but different selected angles; not a same-window comparison
+b,780.0,61.5,70.6;70.5;70.7;70.4;70.8,ridge multipoint,raw trace unavailable,not a scalar,0.9912632051210954,raw trace unavailable,candidate retained by screening,0.0159631821379087,best-protocol summary,best retained b-axis protocol; not matched conditions

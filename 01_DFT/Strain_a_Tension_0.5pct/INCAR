@@ -1,0 +1,49 @@
+# ====================== INCAR - WTe2基态结构优化 ======================
+# --------------------- Global Parameters ----------------------
+SYSTEM = WTe2_stressed_SOC   # 体系标识
+ISTART = 1               # 从头开始计算
+ICHARG = 1               # 原子电荷初始化
+PREC = Accurate          # 高精度模式（结构优化必需）
+ENCUT = 400              # 截断能=1.3×*max(ENMAX)=1.3*223=290
+LREAL = .FALSE.          # 禁用实空间投影（提高精度）
+LWAVE = .TRUE.           # 保存波函数
+LCHARG = .TRUE.          # 保存电荷密度（CHGCAR）用于重启或分析
+ISYM = 0                 # 关闭对称性（非共线+SOC计算强烈建议）
+LASPH = .TRUE.  # 增强赝势精度
+
+# --------------------- Spin & SOC Parameters ----------------------
+LSORBIT = .TRUE.         # 开启自旋轨道耦合
+LNONCOLLINEAR = .TRUE.   # 非共线计算模式
+MAGMOM = 36*0.0 
+
+# --------------------- Electronic Relaxation ----------------------
+ALGO = Normal            # 快速算法加速收敛
+EDIFF = 1E-6   		# 更严格的能量收敛标准
+EDIFFG = -0.02            # 力收敛标准（单位：eV/Å）
+NELM = 300  		# 限制最大电子步数
+NELMIN = 4               # 最小电子步数（防止过早终止）
+LDIAG = .TRUE.          # 启用子空间对角化（提升收敛）
+ADDGRID = .TRUE.         # 提高力和应力计算精度
+IVDW = 12       # 改用DFT-D3(BJ)校正
+AMIX = 0.2     # 增大电荷混合参数
+BMIX = 0.1    # 减小初始混合步长
+LMAXMIX = 4              # 必须！W的d轨道需要此设置（否则电荷混合不准确）
+
+# --------------------- Ionic Relaxation ------------------------
+NSW = 100                 # 允许最多100离子步
+IBRION = 2                # 共轭梯度法（或IBRION=3阻尼动力学）
+POTIM = 0.2               # 初始步长（IBRION=2时建议0.2-0.5）
+ISIF = 2                   # 固定晶胞形状，仅优化原子位置
+
+# --------------------- Smearing & Mixing ----------------------
+ISMEAR = 1              # 高斯展宽（适合应力计算）
+SIGMA = 0.05             # 小展宽宽度（eV）
+
+# --------------------- Parallelization ----------------------
+KPAR = 4                # 设置KPAR=MPI进程数/2（需能被整除）
+NSIM = 8                # 提升内存利用率
+NPAR = 4                # 与NCORE配合（NPAR×NCORE=8）
+LPLANE = .TRUE.         # 启用平面分布优化
+
+
+

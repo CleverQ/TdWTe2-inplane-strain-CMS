@@ -1,0 +1,4 @@
+state,mean_abs_omega3,relative_change_percent,display_relative_change_percent,reference_state,value_column,region_k1,region_k2,target_grid,interpolation_method,nan_fill,source_points_in_region
+0pct,0.1656236196139367,0,0.0%,0pct,omega3_reduced,"[-0.035,0.035]","[-0.035,0.035]",241x241,scipy.griddata(linear),nearest_outside_linear_hull,399
+a_0p5pct,0.2375121482556420,43.404756404476096,43.4%,0pct,omega3_reduced,"[-0.035,0.035]","[-0.035,0.035]",241x241,scipy.griddata(linear),nearest_outside_linear_hull,399
+b_0p5pct,0.22612719107050727,36.530762700152565,36.5%,0pct,omega3_reduced,"[-0.035,0.035]","[-0.035,0.035]",241x241,scipy.griddata(linear),nearest_outside_linear_hull,399
